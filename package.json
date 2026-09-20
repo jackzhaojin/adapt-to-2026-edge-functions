@@ -1,4 +1,6 @@
 {
+  "name": "adapt-to-2026-edge-functions",
+  "private": true,
   "type": "module",
   "dependencies": {
     "@fastly/js-compute": "3.42.1"

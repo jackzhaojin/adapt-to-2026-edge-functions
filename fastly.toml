@@ -3,10 +3,10 @@
 
 authors = []
 cloned_from = "https://github.com/fastly/compute-starter-kit-javascript-empty"
-description = "Simple AEM Edge Functions Boilerplate"
+description = "Edge Functions for the adaptTo 2026 demo site"
 language = "javascript"
 manifest_version = 3
-name = "aem-edge-functions-boilerplate"
+name = "adapt-to-2026-edge-functions"
 service_id = ""
 
 [scripts]
@@ -16,6 +16,10 @@ service_id = ""
   [local_server.backends]
     [local_server.backends.open-meteo]
       url = "https://api.open-meteo.com"
+    # First-party "trails" API used by the sign-in demo. Locally it is the mock
+    # server in adapt-to-2026-demo/local-only/2026-09-19-edge-functions/mock-api.
+    [local_server.backends.mock-api]
+      url = "http://127.0.0.1:9000"
 
   [local_server.config_stores]
     [local_server.config_stores.config_default]
