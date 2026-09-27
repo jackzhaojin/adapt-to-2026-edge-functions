@@ -17,7 +17,7 @@ service_id = ""
     [local_server.backends.open-meteo]
       url = "https://api.open-meteo.com"
     # First-party "trails" API used by the sign-in demo. Locally it is the mock
-    # server in adapt-to-2026-demo/local-only/2026-09-19-edge-functions/mock-api.
+    # server in local/mock-api (see local/README.md).
     [local_server.backends.mock-api]
       url = "http://127.0.0.1:9000"
 

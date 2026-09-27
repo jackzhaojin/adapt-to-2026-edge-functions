@@ -1,0 +1,11 @@
+# Local TLS terminator in front of the Edge Function dev server.
+#
+#   browser --https--> Caddy (443) --http--> Viceroy (127.0.0.1:7676) --https--> aem.page
+#
+# "tls internal" makes Caddy issue a certificate from its own local CA.
+# Run `caddy trust` once (asks for your password) so macOS trusts that CA.
+
+local.jackzhaojin.com {
+	tls internal
+	reverse_proxy 127.0.0.1:7676
+}

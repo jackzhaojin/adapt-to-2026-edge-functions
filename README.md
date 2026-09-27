@@ -1,5 +1,9 @@
 # aem-edge-functions-boilerplate
 
+> **This fork:** an Edge Function in front of an Edge Delivery site with Google sign-in at the edge,
+> a members-only section, and a greeting bar with data from an API. Everything runs on a laptop.
+> See [local/README.md](local/README.md) to run the whole demo. The rest of this README is Adobe's.
+
 ## Introduction
 
 This boilerplate serves as an example of what is possible to achieve with AEM Edge Functions. The repository contains a simple server that exposes multiple endpoints and makes usage of:

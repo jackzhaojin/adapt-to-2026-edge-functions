@@ -10,7 +10,7 @@ export const GOOGLE_CLIENT_ID = '629110387199-sqgbj6uhrdmahtin1ouu5dtjpeb8da3g.a
 export const PROTECTED_PATHS = ['/ai-articles/'];
 
 // First-party API the edge calls on the visitor's behalf. Locally this is the
-// mock server in local-only/2026-09-19-edge-functions/mock-api. The backend name
+// mock server in local/mock-api (see local/README.md). The backend name
 // must exist in fastly.toml for `serve`; in the cloud it would be declared under
 // `origins` in config/edgeFunctions.yaml.
 export const TRAILS_API_URL = 'http://127.0.0.1:9000';
