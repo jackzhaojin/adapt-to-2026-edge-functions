@@ -3,6 +3,7 @@
 > **This fork:** an Edge Function in front of an Edge Delivery site with Google sign-in at the edge,
 > a members-only section, and a greeting bar with data from an API. Everything runs on a laptop.
 > See [local/README.md](local/README.md) to run the whole demo. The rest of this README is Adobe's.
+> Written walkthrough: [AEM Edge Functions on a Laptop](https://www.jackzhaojin.com/writing/2026-09-20-aem-edge-functions-google-sign-in/). Video: [YouTube](https://youtu.be/J5DpmRjqNQQ).
 
 ## Introduction
 
